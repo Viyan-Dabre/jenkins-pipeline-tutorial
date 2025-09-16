@@ -13,6 +13,7 @@ pipeline {
         }
         stage('Security Check') {
             steps {
+                echo 'Hello I am Viyan Dabre'
                 echo 'Run the security check against the application' 
             }
         }
